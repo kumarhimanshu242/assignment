@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+       *{
+           box-sizing: border-box;
+       }
+        body{
+            font-family: 'League Gothic', sans-serif;
+        }
+        .container {
+            width:900px;
+            border: 4px solid black ;
+            border-radius: 40px;
+            margin: 30px auto;
+            background-color: coral;
+        }
+        .item {
+            border: 2px solid grey;
+            margin: 23px 19px;
+            padding: 19px 22px;
+            background-color: bisque;
+            border-radius: 30px;
+        }
+        #fruit{
+            float: left;
+            width: 45%;
+        }
+        #computer {
+            float: right;
+            width: 45%;
+        }
+        #stationary {
+            clear:both;
+            /*float: left;
+            width: 100%;*/
+        }
+        p, h3{
+            /*text-align: right;
+            text-align: left;
+            text-align: center;*/
+            text-align: justify;
+        }
+        h1 {
+            margin:20px auto;
+            width: 330px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, amet aut! Error ipsam autem quibusdam minima. Obcaecati magnam architecto sit minima sapiente. Libero magni necessitatibus itaque odit adipisci, nam expedita consequatur, totam architecto laudantium sequi quasi atque delectus. Recusandae, alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere accusantium sunt, aspernatur doloribus commodi magnam perferendis autem aliquam neque quibusdam voluptatum provident ad, est alias aliquid eveniet fugiat perspiciatis ab.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, amet aut! Error ipsam autem quibusdam minima. Obcaecati magnam architecto sit minima sapiente. Libero magni necessitatibus itaque odit adipisci, nam expedita consequatur, totam architecto laudantium sequi quasi atque delectus. Recusandae, alias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione excepturi tempora, voluptates similique architecto et, sed eligendi animi tempore fugit quod! Aperiam voluptate nostrum soluta minima. Iusto obcaecati facilis voluptatem et.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="staionarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, amet aut! Error ipsam autem quibusdam minima. Obcaecati magnam architecto sit minima sapiente. Libero magni necessitatibus itaque odit adipisci, nam expedita consequatur, totam architecto laudantium sequi quasi atque delectus. Recusandae, alias!</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, amet aut! Error ipsam autem quibusdam minima. Obcaecati magnam architecto sit minima sapiente. Libero magni necessitatibus itaque odit adipisci, nam expedita consequatur, totam architecto laudantium sequi quasi atque delectus. Recusandae, alias!</p>
+        </div>
+
+    </div>
+</body>
+</html>
